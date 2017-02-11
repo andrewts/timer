@@ -9,7 +9,7 @@ import (
 )
 
 func printf(fmtstr string, args ...interface{}) (int, error) {
-	return fmt.Printf("\a"+time.Now().Format("2006-01-02 03:04:05.000000000")+" "+fmtstr, args...)
+	return fmt.Printf("\a"+time.Now().Format("2006-01-02 15:04:05.000000000")+" "+fmtstr, args...)
 }
 
 func main() {
